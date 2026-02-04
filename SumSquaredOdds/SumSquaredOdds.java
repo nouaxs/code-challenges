@@ -4,7 +4,7 @@ public class SumSquaredOdds {
         long squared = 0;
         long solution = 0;
         
-        while (counter <= 684) {
+        while (counter <= 684) { //684 is the result of square root 469k ceiled
             squared = counter*counter;
             System.out.println(solution);
             if (squared % 2 != 0) {
@@ -12,6 +12,6 @@ public class SumSquaredOdds {
             }
             counter++;
         }
-        System.out.println(solution);
+        System.out.println(solution); // obtained result 53,335,470 - correct :)
     } 
 }
